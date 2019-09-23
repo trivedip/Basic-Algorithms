@@ -1,7 +1,8 @@
 // my_class.cpp
 #include <iostream> // header in standard library
 #include "utility.h" // header in local directory
-
+#include <cstdlib>
+#include <ctime>
 #include <vector>
 using namespace std;
 using namespace util;
