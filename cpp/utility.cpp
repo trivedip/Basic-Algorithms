@@ -4,7 +4,7 @@
 
 #include <vector>
 using namespace std;
-using namespace vec;
+using namespace util;
 void Utility::fillVector(vector<int>& a, int size){
     srand(1);
     for (int i=0; i< size; i++){

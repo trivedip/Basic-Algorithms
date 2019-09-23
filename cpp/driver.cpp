@@ -9,10 +9,10 @@
 #include <time.h>
 #include <vector>
 #include <random>
-
-
 using namespace std;
-using namespace vec;
+using namespace util;
+
+
 int main()
 {
     vector<int> a;

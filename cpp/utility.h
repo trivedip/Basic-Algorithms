@@ -2,7 +2,7 @@
 #define vector_utility
 #include <vector>
 using namespace std;
-namespace vec
+namespace util
 {
 class Utility
 {
