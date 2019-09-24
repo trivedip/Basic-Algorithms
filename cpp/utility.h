@@ -15,6 +15,7 @@ public:
     void printVector2(vector<int>, vector<int>);
     void tStart();
     void tEnd();
+    void pStat();
 };
 }; // namespace util
 

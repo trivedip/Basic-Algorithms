@@ -8,6 +8,7 @@
 using namespace std;
 using namespace util;
 std::chrono::high_resolution_clock::time_point sink;
+vector<int> time_analysis;
 
 void Utility::fillVector(vector<int>& a, int size){
     srand(1);
@@ -43,9 +44,15 @@ void Utility::test(){
 }
 
 void Utility::tEnd(){
-    test();
     std::chrono::high_resolution_clock::time_point chrono_stp = chrono::high_resolution_clock::now(); 
-    std::chrono::microseconds elapsed = std::chrono::duration_cast<std::chrono::microseconds>(chrono_stp - sink);
-    std::cout << elapsed.count() << endl;
+    std::chrono::microseconds elapsed = std::chrono::duration_cast<std::chrono::microseconds>(chrono_stp - sink);    
+    cout << __FUNCTION__ << endl;    //Compiler Dependent FROM-->https://stackoverflow.com/questions/733056/is-there-a-way-to-get-function-name-inside-a-c-function
+    time_analysis.push_back(elapsed.count());
     
+}
+
+void Utility::pStat(){
+    for(size_t i=0; i< time_analysis.size(); i++){
+        cout << time_analysis[i] << endl;
+    }
 }

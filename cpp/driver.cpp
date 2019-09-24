@@ -17,10 +17,16 @@ int main()
 {
     vector<int> a;
     Utility util;
-    
-    util.fillVector(a,10000000);
     util.tStart();
+    util.fillVector(a,100000);
+    
     // util.printVector(a);
     util.tEnd();
+    util.tStart();
+    util.fillVector(a,1000000);
+    
+    // util.printVector(a);
+    util.tEnd();
+    util.pStat();
     return 0;      
 }
