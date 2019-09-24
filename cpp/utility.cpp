@@ -43,11 +43,12 @@ void Utility::test(){
     cout << "Hello there from test function!" << endl;
 }
 
-void Utility::tEnd(){
+void Utility::tEnd(const char* func_name){
     std::chrono::high_resolution_clock::time_point chrono_stp = chrono::high_resolution_clock::now(); 
     std::chrono::microseconds elapsed = std::chrono::duration_cast<std::chrono::microseconds>(chrono_stp - sink);    
     cout << __FUNCTION__ << endl;    //Compiler Dependent FROM-->https://stackoverflow.com/questions/733056/is-there-a-way-to-get-function-name-inside-a-c-function
     time_analysis.push_back(elapsed.count());
+    cout << func_name << endl;
     
 }
 

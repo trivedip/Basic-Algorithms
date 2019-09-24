@@ -21,12 +21,12 @@ int main()
     util.fillVector(a,100000);
     
     // util.printVector(a);
-    util.tEnd();
+    util.tEnd(__FUNCTION__);
     util.tStart();
     util.fillVector(a,1000000);
     
     // util.printVector(a);
-    util.tEnd();
+    util.tEnd(__FUNCTION__);
     util.pStat();
     return 0;      
 }

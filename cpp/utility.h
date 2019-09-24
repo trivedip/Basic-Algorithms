@@ -14,7 +14,7 @@ public:
     void printVector(vector<int>);
     void printVector2(vector<int>, vector<int>);
     void tStart();
-    void tEnd();
+    void tEnd(const char*);
     void pStat();
 };
 }; // namespace util
