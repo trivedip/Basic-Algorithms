@@ -6,11 +6,16 @@ namespace util
 {
 class Utility
 {
+private:
+
 public:
+    void test();
     void fillVector(vector<int> &, int);
     void printVector(vector<int>);
     void printVector2(vector<int>, vector<int>);
+    void tStart();
+    void tEnd();
 };
-}; // namespace vec
+}; // namespace util
 
 #endif
