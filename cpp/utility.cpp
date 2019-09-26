@@ -8,7 +8,15 @@
 using namespace std;
 using namespace util;
 std::chrono::high_resolution_clock::time_point sink;
-vector<int> time_analysis;
+// vector<int> time_analysis;
+struct analysis{
+    const char * func_name;
+    int calc_time;
+    analysis(const char* x, const int y):
+    func_name(x), calc_time(y){}
+};
+
+vector<analysis> time_coll {};
 
 void Utility::fillVector(vector<int>& a, int size){
     srand(1);
@@ -46,14 +54,14 @@ void Utility::test(){
 void Utility::tEnd(const char* func_name){
     std::chrono::high_resolution_clock::time_point chrono_stp = chrono::high_resolution_clock::now(); 
     std::chrono::microseconds elapsed = std::chrono::duration_cast<std::chrono::microseconds>(chrono_stp - sink);    
-    cout << __FUNCTION__ << endl;    //Compiler Dependent FROM-->https://stackoverflow.com/questions/733056/is-there-a-way-to-get-function-name-inside-a-c-function
-    time_analysis.push_back(elapsed.count());
-    cout << func_name << endl;
-    
+    // cout << __FUNCTION__ << endl;    //Compiler Dependent FROM-->https://stackoverflow.com/questions/733056/is-there-a-way-to-get-function-name-inside-a-c-function
+    // time_coll.push_back(elapsed.count());
+    time_coll.push_back((analysis(func_name, elapsed.count())));
+    // cout << func_name << endl;    
 }
 
 void Utility::pStat(){
-    for(size_t i=0; i< time_analysis.size(); i++){
-        cout << time_analysis[i] << endl;
+    for( const auto& elem: time_coll){
+        cout << elem.func_name  << " : " << elem.calc_time << endl;
     }
 }
