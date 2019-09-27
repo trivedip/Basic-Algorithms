@@ -23,7 +23,7 @@ int main()
     Utility util;
     Sort srt;
     
-    util.fillVector(a,10);
+    util.fillVector(a,100);
     b = a;
     srt.BubbleSort(a);
     util.printVector2(b,a);
