@@ -35,7 +35,7 @@ Rolling releases
 
 ## Author
 
-* **Priyank Trivedi** - *Part of Basic-Algorithms Project* - [TrivediP.com](https://trivedip.com)
+* **Priyank Trivedi** - *Part of Basic-Algorithms Project || Not part of any course work* - [TrivediP.com](https://trivedip.com)
 
 
 
