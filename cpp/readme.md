@@ -35,7 +35,7 @@ Rolling releases
 
 ## Author
 
-* **Priyank Trivedi** - *Part of Basic-Algorithms Project* - [PurpleBooth](https://github.com/trivedip)
+* **Priyank Trivedi** - *Part of Basic-Algorithms Project* - [TrivediP.com](https://trivedip.com)
 
 
 
