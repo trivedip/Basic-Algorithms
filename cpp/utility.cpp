@@ -10,6 +10,7 @@
 #include <ctime>
 #include <vector>
 #include <chrono>
+#include <random>
 using namespace std;
 using namespace util;
 std::chrono::high_resolution_clock::time_point sink;
@@ -24,22 +25,27 @@ struct analysis{
 vector<analysis> time_coll {};
 
 void Utility::fillVector(vector<int>& a, int size){
-    srand(1);
+    srand(15);
     for (int i=0; i< size; i++){
         a.push_back(rand()%100);
     }  
 }
 
 void Utility::printVector(vector<int> a){
+    int index=0;
     for(size_t i= 0; i<a.size(); i++){
-        cout << a[i] << endl;
+        cout << index << ":   " << a[i] << endl;
+        index++;
     }
 }
 
 void Utility::printVector2(vector<int> a, vector<int> b){
+    int index;
+    cout << "Vector size is: " << a.size() << endl;
     for( size_t i=0; i< a.size(); i++){
         if(a.size() == b.size()){
-            cout << a[i] << "  ::  " << b[i] << endl;
+            cout << index << "|   " << a[i] << " :: " << b[i] << endl;
+            index++;
         }else{
             cout << "Both vectors must be of same size!" << endl;
         }

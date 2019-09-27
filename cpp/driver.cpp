@@ -19,12 +19,14 @@ using namespace util;
 int main()
 {
     vector<int> a;
+    vector<int> b;
     Utility util;
     Sort srt;
     
-    util.fillVector(a,5);
+    util.fillVector(a,10);
+    b = a;
     srt.BubbleSort(a);
-    // util.printVector(a);
+    util.printVector2(b,a);
     
     
     

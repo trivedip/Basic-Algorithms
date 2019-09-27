@@ -11,11 +11,16 @@ using namespace std;
 Utility u;
 void Sort::BubbleSort(vector<int>& a){
     u.tStart();
-    // for(size_t i: a){
-    //     std::cout << a[i] << endl;
-    // }
-    for(size_t i =0; i<a.size(); i++){
-        cout << a[i] << endl;
+    int temp;
+    for (int i=0; i<=(a.size());i++){
+        for(int j=0; j<=(a.size())-2;j++){
+            if(a[j]>a[j+1]){
+                temp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = temp;
+            }
+        }
+    
     }
     u.tEnd(__FUNCTION__);
 }
