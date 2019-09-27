@@ -6,6 +6,9 @@
 #ifndef vector_utility
 #include "utility.h"
 #endif
+#ifndef vector_sort
+#include "sort.h"
+#endif
 #include <time.h>
 #include <vector>
 #include <random>
@@ -17,16 +20,14 @@ int main()
 {
     vector<int> a;
     Utility util;
-    util.tStart();
-    util.fillVector(a,100000);
+    Sort srt;
     
+    util.fillVector(a,5);
+    srt.BubbleSort(a);
     // util.printVector(a);
-    util.tEnd(__FUNCTION__);
-    util.tStart();
-    util.fillVector(a,1000000);
     
-    // util.printVector(a);
-    util.tEnd(__FUNCTION__);
+    
+    
     util.pStat();
     return 0;      
 }

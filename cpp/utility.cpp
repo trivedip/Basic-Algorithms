@@ -1,4 +1,9 @@
-// my_class.cpp
+// utility.cpp || General utility class to have with basic vector functionality and advance timing function
+// Developed by - Priyank Trivedi
+// For - Cpp practice
+// IN : utility.h
+// OUT : NA
+// Date - Aug 19
 #include <iostream> // header in standard library
 #include "utility.h" // header in local directory
 #include <cstdlib>
