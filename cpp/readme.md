@@ -1,4 +1,4 @@
-# Project Title
+# Basic Algorithms in C++
 
 This project contains basic algorithms in c++, there are available code in JavaScript and Python in root folder of this project. This project is made for educational purposes only and can be a good guide who wants to get their feet wet in algorithm analysis and c++ coding with STL.
 
