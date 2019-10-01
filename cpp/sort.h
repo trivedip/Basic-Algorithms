@@ -3,7 +3,8 @@
 #include <vector>
 using namespace std;
 class Sort{
-public:    
+public:   
+    
     void BubbleSort(vector<int>&);
 };
 #endif

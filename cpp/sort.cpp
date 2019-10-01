@@ -9,8 +9,9 @@
 using namespace util;
 using namespace std;
 Utility u;
+
 void Sort::BubbleSort(vector<int>& a){
-    u.tStart();
+u.tStart();    
     int temp;
     for (int i=0; i<=(a.size());i++){
         for(int j=0; j<=(a.size())-2;j++){
@@ -22,6 +23,6 @@ void Sort::BubbleSort(vector<int>& a){
         }
     
     }
-    u.tEnd(__FUNCTION__);
+u.tEnd(__FUNCTION__);    
 }
 

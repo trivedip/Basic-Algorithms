@@ -11,6 +11,7 @@
 #endif
 #include <time.h>
 #include <vector>
+#include <chrono>
 #include <random>
 using namespace std;
 using namespace util;
@@ -18,18 +19,22 @@ using namespace util;
 
 int main()
 {
+    auto main_time = chrono::high_resolution_clock::now();
     vector<int> a;
     vector<int> b;
     Utility util;
     Sort srt;
-    
+    util.tStart();
     util.fillVector(a,100);
     b = a;
     srt.BubbleSort(a);
     util.printVector2(b,a);
-    
+    util.tEnd(__FUNCTION__);
     
     
     util.pStat();
+    auto main_time_end = chrono::high_resolution_clock::now();
+    auto main_elapsed = std::chrono::duration_cast<std::chrono::microseconds>(main_time_end - main_time);
+    cout  << "Time calculate from main function: " << main_elapsed.count() << endl;
     return 0;      
 }
