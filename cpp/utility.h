@@ -1,4 +1,4 @@
-// utility.h || General utility class to have with basic vector functionality and advance timing function
+         // utility.h || General utility class to have with basic vector functionality and advance timing function
 // Developed by - Priyank Trivedi
 // For - Cpp practice
 // IN : NA
@@ -16,7 +16,9 @@ private:
 public:
     void test();
     void fillVector(vector<int> &, int);
+    void fillArray(int *, int);
     void printVector(vector<int>);
+    void printArray(int *, int);
     void printVector2(vector<int>, vector<int>);
     void tStart();
     void tEnd(const char *);

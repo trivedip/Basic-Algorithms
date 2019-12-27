@@ -9,7 +9,9 @@ add_executable(
         basic_algorithms_cpp
         driver.cpp
         sort.cpp
+        peak_finding.cpp
         sort.h
         utility.cpp
         utility.h
-        )
+        peak_finding.h
+        cmake-build-debug/peak_finding.cpp)

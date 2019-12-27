@@ -34,6 +34,13 @@ void Utility::fillVector(vector<int> &a, int size)
     }
 }
 
+void Utility::fillArray(int arr[], int size) {
+    srand(25);
+    for(std::size_t i=0; i<size; i++){
+        arr[i] = rand() % 100;
+    }
+}
+
 void Utility::printVector(vector<int> a)
 {
     int index = 0;
@@ -41,6 +48,13 @@ void Utility::printVector(vector<int> a)
     {
         cout << index << ":   " << a[i] << endl;
         index++;
+    }
+}
+
+void Utility::printArray(int arr[],int size) {
+    cout << "Size of Array is: " << *(&arr + 1) - arr << endl;
+    for(std::size_t i=0; i< size;i++){
+        cout << arr[i] << endl;
     }
 }
 
