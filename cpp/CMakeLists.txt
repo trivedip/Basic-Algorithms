@@ -14,4 +14,4 @@ add_executable(
         utility.cpp
         utility.h
         peak_finding.h
-        cmake-build-debug/peak_finding.cpp)
+        cmake-build-debug/peak_finding.cpp exp.cpp exp.h)

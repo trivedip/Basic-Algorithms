@@ -15,7 +15,7 @@ class Utility
 private:
 public:
     void test();
-    void fillVector(vector<int> &, int);
+    static void fillVector(vector<int> &, int);
     void fillArray(int *, int);
     void printVector(vector<int>);
     void printArray(int *, int);

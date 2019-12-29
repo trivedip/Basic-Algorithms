@@ -14,8 +14,9 @@
 using namespace std;
 using namespace util;
 std::chrono::high_resolution_clock::time_point sink;
-// vector<int> time_analysis;
+
 struct analysis
+//        Structure to store time at the beginning and end of program.
 {
     const char *func_name;
     chrono::high_resolution_clock::time_point start_time;
@@ -25,6 +26,11 @@ struct analysis
 
 vector<analysis> time_coll{};
 
+/*
+* Utility function to fill out empty vector with random integer values
+* @param &a Reference to the beginning of the vector
+* @param size Number of values to fill
+*/
 void Utility::fillVector(vector<int> &a, int size)
 {
     srand(15);
@@ -35,7 +41,7 @@ void Utility::fillVector(vector<int> &a, int size)
 }
 
 void Utility::fillArray(int arr[], int size) {
-    srand(25);
+    srand(time(NULL));
     for(std::size_t i=0; i<size; i++){
         arr[i] = rand() % 100;
     }

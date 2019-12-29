@@ -16,6 +16,7 @@
 #include <vector>
 #include <chrono>
 #include <random>
+#include "exp.h"
 using namespace std;
 using namespace util;
 
@@ -24,12 +25,19 @@ int main()
 {
     int arr[10];
     auto main_time = chrono::high_resolution_clock::now();
+    Exp exp;
+    Exp_extend expt;
+    exp.print();
+    expt.print();
     vector<int> a;
     vector<int> b;
     Utility util;
+    peak_finder p;
     Sort srt;
+
     util.fillArray(arr,10);
-    util.printArray(arr, 10);
+    p.findLocalPeak(arr, 10);
+
     util.tStart();
 //    util.fillVector(a,100);
 //    b = a;
