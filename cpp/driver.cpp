@@ -9,6 +9,9 @@
 #ifndef vector_sort
 #include "sort.h"
 #endif
+#ifndef BASIC_ALGORITHMS_CPP_PEAK_FINDING_H
+#include "peak_finding.h"
+#endif
 #include <time.h>
 #include <vector>
 #include <chrono>
