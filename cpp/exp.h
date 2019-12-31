@@ -9,6 +9,8 @@
 #include <iostream>
 
 
+
+#if 0 // If block 1
 class Exp {
 protected:
     std::string first, last;
@@ -19,13 +21,15 @@ public:
         first = first_n;
         last = last_n;
     }
-    void print();
+
+    virtual void print();
 };
 
 class Exp_extend : public Exp{
 public:
-    void print();
+    void print() override ;
 };
+#endif
 
 
 #endif //BASIC_ALGORITHMS_CPP_EXP_H
