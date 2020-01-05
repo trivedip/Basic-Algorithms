@@ -29,7 +29,20 @@ class Exp_extend : public Exp{
 public:
     void print() override ;
 };
-#endif
 
+
+template <typename T, int N>
+class template_exp{
+private:
+public:
+    T m_arr;
+    template_exp(int i)
+    : m_arr(i){};
+    void print_val(){
+        std:: cout << m_arr << std::endl;
+    };
+
+};
+#endif
 
 #endif //BASIC_ALGORITHMS_CPP_EXP_H

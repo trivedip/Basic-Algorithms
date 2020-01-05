@@ -4,11 +4,13 @@
 
 #ifndef BASIC_ALGORITHMS_CPP_PEAK_FINDING_H
 #define BASIC_ALGORITHMS_CPP_PEAK_FINDING_H
+#include <array>
 
 class peak_finder{
 private:
 public:
-    void findLocalPeak(int *,int);
+    int findLocalPeak(const std::array<int,5> &, int, int);
+    void stack(int *);
 };
 
 #endif //BASIC_ALGORITHMS_CPP_PEAK_FINDING_H
