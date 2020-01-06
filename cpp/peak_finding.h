@@ -9,7 +9,7 @@
 class peak_finder{
 private:
 public:
-    int findLocalPeak(const std::array<int,5> &, int, int);
+    int findLocalPeak(std::array<int,5> , int, int);
     void stack(int *);
 };
 

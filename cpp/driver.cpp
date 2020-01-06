@@ -52,10 +52,11 @@ int main()
     Sort srt;
     util.fillArray(arr,10);
 #endif
-    std::array<int,5> something = {1,2,5,3,5};
+    std::array<int,5> something = {1,2,3,4,7};
     peak_finder p;
 //    int arr_one[5] = {0,5,4,7,0};
-    std::cout << p.findLocalPeak(something,0,0) << std::endl;
+    std::cout << p.findLocalPeak(something,0,5) << std::endl;
+//    std::cout << something[4] << std::endl;
 //    arraCall(&arr_one[1], 4);
 #if 0
     util.tStart();
