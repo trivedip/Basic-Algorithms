@@ -7,7 +7,7 @@
 
 #include <string>
 #include <iostream>
-
+#include<vector>
 
 
 #if 0 // If block 1
@@ -44,5 +44,9 @@ public:
 
 };
 #endif
+class palindromFinder{
+public:
+    bool pali(const std::vector<int>&);
+};
 
 #endif //BASIC_ALGORITHMS_CPP_EXP_H

@@ -1,17 +1,17 @@
 cmake_minimum_required(VERSION 3.15)
-project(basic_algorithms_cpp)
+project(cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(
-        basic_algorithms_cpp
+add_executable(cpp
         driver.cpp
-        sort.cpp
+        exp.cpp
+        exp.h
         peak_finding.cpp
+        peak_finding.h
+        sort.cpp
         sort.h
         utility.cpp
-        utility.h
-        peak_finding.h
-        peak_finding.cpp exp.cpp exp.h)
+        utility.h)
