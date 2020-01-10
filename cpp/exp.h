@@ -44,6 +44,7 @@ public:
 
 };
 #endif
+
 class palindromFinder{
 public:
     bool pali(const std::vector<int>&);
