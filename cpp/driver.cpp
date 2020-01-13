@@ -12,12 +12,21 @@
 #ifndef BASIC_ALGORITHMS_CPP_PEAK_FINDING_H
 #include "peak_finding.h"
 #endif
+
+#ifndef CPP_ADT_H
+#include "adt.h"
+#endif
+#include <string>
+
+
 #include <time.h>
 #include <vector>
 #include <chrono>
 #include <random>
 #include "exp.h"
 #include <memory>
+#include <algorithm>
+
 using namespace std;
 using namespace util;
 
@@ -27,10 +36,26 @@ void arraCall(int *arr_one,int size){
 }
 int main()
 {
-    int arr[10];
+    LinkedList<char>* charList = new LinkedList<char>('a');
+    charList->append('b');
+    charList->append('c');
+    charList->print();
+    std::cout << "----------------" << std::endl;
+    LinkedList<int>* N = new LinkedList<int>(5);
+    N->append(10);
+    N->append(15);
+    N->appendFront(7);
+    N->print();
+    int a[5] = {1,2,3,4,5};
+
+    std::cout << N->next()+ N->next() << std::endl;
+    std::cout <<"---------------" <<std::endl;
+
+    Tree<int>* tree = new Tree<int>(5);
+
 
 //    auto main_time = chrono::high_resolution_clock::now();
-    int* test_arr = new int[10];
+
 #if 0  //If block 1 - related to exp.h and exp.cpp
     template_exp<int,10> exp(10);
     exp.print_val();
@@ -52,10 +77,7 @@ int main()
     Sort srt;
     util.fillArray(arr,10);
 #endif
-    array<int,10> findFunction;
-    vector<int> tester = {2,0,1,0,2};
-    palindromFinder p;
-    std::cout << p.pali(tester) << std::endl;
+
 
 #if 0
     util.tStart();

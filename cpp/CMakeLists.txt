@@ -14,4 +14,7 @@ add_executable(cpp
         sort.cpp
         sort.h
         utility.cpp
-        utility.h ADT.cpp ADT.h)
+        utility.h
+        adt.h
+#        adt.cpp
+        )
