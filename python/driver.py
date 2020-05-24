@@ -1,10 +1,8 @@
 import random
-arr =  []
+from tree import LinkedList
 
-for i in range(0,10):
-    arr.append(random.randint(0,500))
+a = LinkedList(5)
+for _ in range(10):
+    a.append(random.randint(0,50))
 
-# arr.sort()
-
-for i in arr:
-    print (i) 
+a.print()
