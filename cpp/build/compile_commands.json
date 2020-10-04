@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/priyank/github/Basic-Algorithms/cpp/build",
+  "command": "/bin/g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/driver.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/driver.cpp",
+  "file": "/home/priyank/github/Basic-Algorithms/cpp/driver.cpp"
+}
+]

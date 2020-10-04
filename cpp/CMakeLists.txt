@@ -4,17 +4,5 @@ project(cpp)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
-
-add_executable(cpp
-        driver.cpp
-        exp.cpp
-        exp.h
-        peak_finding.cpp
-        peak_finding.h
-        sort.cpp
-        sort.h
-        utility.cpp
-        utility.h
-        adt.h
-#        adt.cpp
-        )
+file(GLOB all_header "algo/*.h")
+add_executable(cpp driver.cpp ${all_header})

@@ -4,26 +4,25 @@
 // Meta Info: Priyank Trivedi  -  20/9/2019  
 #include <iostream>
 #ifndef vector_utility
-#include "utility.h"
+#include "algo/utility.h"
 #endif
 #ifndef vector_sort
-#include "sort.h"
+#include "algo/sort.h"
 #endif
 #ifndef BASIC_ALGORITHMS_CPP_PEAK_FINDING_H
-#include "peak_finding.h"
+#include "algo/peak_finding.h"
 #endif
 
 #ifndef CPP_ADT_H
-#include "adt.h"
+#include "algo/adt.h"
 #endif
 #include <string>
-
 
 #include <time.h>
 #include <vector>
 #include <chrono>
 #include <random>
-#include "exp.h"
+#include "algo/exp.h"
 #include <memory>
 #include <algorithm>
 
