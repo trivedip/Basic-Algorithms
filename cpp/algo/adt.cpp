@@ -3,6 +3,9 @@
 //
 
 #include<typeinfo>
+#include <iostream>
+#include "adt.h"
+
 template<class T>
 void LinkedList<T>::append(T val) {
     Node* current = head;

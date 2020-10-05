@@ -14,7 +14,7 @@
 #endif
 
 #ifndef CPP_ADT_H
-#include "algo/adt.h"
+// #include "algo/adt.h"
 #endif
 #include <string>
 
@@ -25,6 +25,7 @@
 #include "algo/exp.h"
 #include <memory>
 #include <algorithm>
+#include "algo/bst.cpp"
 
 using namespace std;
 using namespace util;
@@ -35,6 +36,12 @@ void arraCall(int *arr_one,int size){
 }
 int main()
 {
+    std::cout << "____Start of BST____\n" ;
+    BST<int>* bst = new BST<int>(5);
+    bst->append(5);
+    std::cout << "____End of BST____\n" ;
+
+#if 0   // set to 1 to enable linkedlist 
     LinkedList<char>* charList = new LinkedList<char>('a');
     charList->append('b');
     charList->append('c');
@@ -46,15 +53,11 @@ int main()
     N->appendFront(7);
     N->print();
     int a[5] = {1,2,3,4,5};
-
     std::cout << N->next()+ N->next() << std::endl;
     std::cout <<"---------------" <<std::endl;
-
     Tree<int>* tree = new Tree<int>(5);
-
-
-//    auto main_time = chrono::high_resolution_clock::now();
-
+   auto main_time = chrono::high_resolution_clock::now();
+#endif
 #if 0  //If block 1 - related to exp.h and exp.cpp
     template_exp<int,10> exp(10);
     exp.print_val();

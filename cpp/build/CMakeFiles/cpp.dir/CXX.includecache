@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/priyank/github/Basic-Algorithms/cpp/algo/adt.cpp
+/home/priyank/github/Basic-Algorithms/cpp/algo/bst.cpp
 typeinfo
 -
-
-/home/priyank/github/Basic-Algorithms/cpp/algo/adt.h
 iostream
 -
-string
--
-adt.cpp
-/home/priyank/github/Basic-Algorithms/cpp/algo/adt.cpp
+bst.h
+/home/priyank/github/Basic-Algorithms/cpp/algo/bst.h
+
+/home/priyank/github/Basic-Algorithms/cpp/algo/bst.h
 
 /home/priyank/github/Basic-Algorithms/cpp/algo/exp.h
 string
@@ -47,8 +45,6 @@ algo/sort.h
 /home/priyank/github/Basic-Algorithms/cpp/algo/sort.h
 algo/peak_finding.h
 /home/priyank/github/Basic-Algorithms/cpp/algo/peak_finding.h
-algo/adt.h
-/home/priyank/github/Basic-Algorithms/cpp/algo/adt.h
 string
 -
 time.h
@@ -65,4 +61,6 @@ memory
 -
 algorithm
 -
+algo/bst.cpp
+/home/priyank/github/Basic-Algorithms/cpp/algo/bst.cpp
 

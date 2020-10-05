@@ -4,6 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/priyank/github/Basic-Algorithms/cpp/algo/adt.cpp" "/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles/cpp.dir/algo/adt.cpp.o"
+  "/home/priyank/github/Basic-Algorithms/cpp/algo/bst.cpp" "/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles/cpp.dir/algo/bst.cpp.o"
+  "/home/priyank/github/Basic-Algorithms/cpp/algo/exp.cpp" "/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles/cpp.dir/algo/exp.cpp.o"
+  "/home/priyank/github/Basic-Algorithms/cpp/algo/peak_finding.cpp" "/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles/cpp.dir/algo/peak_finding.cpp.o"
+  "/home/priyank/github/Basic-Algorithms/cpp/algo/sort.cpp" "/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles/cpp.dir/algo/sort.cpp.o"
+  "/home/priyank/github/Basic-Algorithms/cpp/algo/utility.cpp" "/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles/cpp.dir/algo/utility.cpp.o"
   "/home/priyank/github/Basic-Algorithms/cpp/driver.cpp" "/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles/cpp.dir/driver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

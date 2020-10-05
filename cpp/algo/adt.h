@@ -31,7 +31,7 @@ public:
     T next();
     T operator+(Node) const;
 };
-#include "adt.cpp"
+// #include "adt.cpp"
 
 template <class Tr>
 class Tree{

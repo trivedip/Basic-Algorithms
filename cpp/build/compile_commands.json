@@ -1,7 +1,37 @@
 [
 {
   "directory": "/home/priyank/github/Basic-Algorithms/cpp/build",
-  "command": "/bin/g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/driver.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/driver.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/driver.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/driver.cpp",
   "file": "/home/priyank/github/Basic-Algorithms/cpp/driver.cpp"
+},
+{
+  "directory": "/home/priyank/github/Basic-Algorithms/cpp/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/algo/adt.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/adt.cpp",
+  "file": "/home/priyank/github/Basic-Algorithms/cpp/algo/adt.cpp"
+},
+{
+  "directory": "/home/priyank/github/Basic-Algorithms/cpp/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/algo/bst.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/bst.cpp",
+  "file": "/home/priyank/github/Basic-Algorithms/cpp/algo/bst.cpp"
+},
+{
+  "directory": "/home/priyank/github/Basic-Algorithms/cpp/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/algo/exp.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/exp.cpp",
+  "file": "/home/priyank/github/Basic-Algorithms/cpp/algo/exp.cpp"
+},
+{
+  "directory": "/home/priyank/github/Basic-Algorithms/cpp/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/algo/peak_finding.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/peak_finding.cpp",
+  "file": "/home/priyank/github/Basic-Algorithms/cpp/algo/peak_finding.cpp"
+},
+{
+  "directory": "/home/priyank/github/Basic-Algorithms/cpp/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/algo/sort.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/sort.cpp",
+  "file": "/home/priyank/github/Basic-Algorithms/cpp/algo/sort.cpp"
+},
+{
+  "directory": "/home/priyank/github/Basic-Algorithms/cpp/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/priyank/github/Basic-Algorithms/cpp/.  -g   -std=gnu++14 -o CMakeFiles/cpp.dir/algo/utility.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/utility.cpp",
+  "file": "/home/priyank/github/Basic-Algorithms/cpp/algo/utility.cpp"
 }
 ]

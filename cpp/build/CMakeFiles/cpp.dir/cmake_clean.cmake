@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cpp.dir/algo/adt.cpp.o"
+  "CMakeFiles/cpp.dir/algo/bst.cpp.o"
+  "CMakeFiles/cpp.dir/algo/exp.cpp.o"
+  "CMakeFiles/cpp.dir/algo/peak_finding.cpp.o"
+  "CMakeFiles/cpp.dir/algo/sort.cpp.o"
+  "CMakeFiles/cpp.dir/algo/utility.cpp.o"
   "CMakeFiles/cpp.dir/driver.cpp.o"
   "cpp"
   "cpp.pdb"

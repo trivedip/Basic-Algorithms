@@ -123,6 +123,168 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
+algo/adt.o: algo/adt.cpp.o
+
+.PHONY : algo/adt.o
+
+# target to build an object file
+algo/adt.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/adt.cpp.o
+.PHONY : algo/adt.cpp.o
+
+algo/adt.i: algo/adt.cpp.i
+
+.PHONY : algo/adt.i
+
+# target to preprocess a source file
+algo/adt.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/adt.cpp.i
+.PHONY : algo/adt.cpp.i
+
+algo/adt.s: algo/adt.cpp.s
+
+.PHONY : algo/adt.s
+
+# target to generate assembly for a file
+algo/adt.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/adt.cpp.s
+.PHONY : algo/adt.cpp.s
+
+algo/bst.o: algo/bst.cpp.o
+
+.PHONY : algo/bst.o
+
+# target to build an object file
+algo/bst.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/bst.cpp.o
+.PHONY : algo/bst.cpp.o
+
+algo/bst.i: algo/bst.cpp.i
+
+.PHONY : algo/bst.i
+
+# target to preprocess a source file
+algo/bst.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/bst.cpp.i
+.PHONY : algo/bst.cpp.i
+
+algo/bst.s: algo/bst.cpp.s
+
+.PHONY : algo/bst.s
+
+# target to generate assembly for a file
+algo/bst.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/bst.cpp.s
+.PHONY : algo/bst.cpp.s
+
+algo/exp.o: algo/exp.cpp.o
+
+.PHONY : algo/exp.o
+
+# target to build an object file
+algo/exp.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/exp.cpp.o
+.PHONY : algo/exp.cpp.o
+
+algo/exp.i: algo/exp.cpp.i
+
+.PHONY : algo/exp.i
+
+# target to preprocess a source file
+algo/exp.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/exp.cpp.i
+.PHONY : algo/exp.cpp.i
+
+algo/exp.s: algo/exp.cpp.s
+
+.PHONY : algo/exp.s
+
+# target to generate assembly for a file
+algo/exp.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/exp.cpp.s
+.PHONY : algo/exp.cpp.s
+
+algo/peak_finding.o: algo/peak_finding.cpp.o
+
+.PHONY : algo/peak_finding.o
+
+# target to build an object file
+algo/peak_finding.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/peak_finding.cpp.o
+.PHONY : algo/peak_finding.cpp.o
+
+algo/peak_finding.i: algo/peak_finding.cpp.i
+
+.PHONY : algo/peak_finding.i
+
+# target to preprocess a source file
+algo/peak_finding.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/peak_finding.cpp.i
+.PHONY : algo/peak_finding.cpp.i
+
+algo/peak_finding.s: algo/peak_finding.cpp.s
+
+.PHONY : algo/peak_finding.s
+
+# target to generate assembly for a file
+algo/peak_finding.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/peak_finding.cpp.s
+.PHONY : algo/peak_finding.cpp.s
+
+algo/sort.o: algo/sort.cpp.o
+
+.PHONY : algo/sort.o
+
+# target to build an object file
+algo/sort.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/sort.cpp.o
+.PHONY : algo/sort.cpp.o
+
+algo/sort.i: algo/sort.cpp.i
+
+.PHONY : algo/sort.i
+
+# target to preprocess a source file
+algo/sort.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/sort.cpp.i
+.PHONY : algo/sort.cpp.i
+
+algo/sort.s: algo/sort.cpp.s
+
+.PHONY : algo/sort.s
+
+# target to generate assembly for a file
+algo/sort.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/sort.cpp.s
+.PHONY : algo/sort.cpp.s
+
+algo/utility.o: algo/utility.cpp.o
+
+.PHONY : algo/utility.o
+
+# target to build an object file
+algo/utility.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/utility.cpp.o
+.PHONY : algo/utility.cpp.o
+
+algo/utility.i: algo/utility.cpp.i
+
+.PHONY : algo/utility.i
+
+# target to preprocess a source file
+algo/utility.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/utility.cpp.i
+.PHONY : algo/utility.cpp.i
+
+algo/utility.s: algo/utility.cpp.s
+
+.PHONY : algo/utility.s
+
+# target to generate assembly for a file
+algo/utility.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/algo/utility.cpp.s
+.PHONY : algo/utility.cpp.s
+
 driver.o: driver.cpp.o
 
 .PHONY : driver.o
@@ -159,6 +321,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
+	@echo "... algo/adt.o"
+	@echo "... algo/adt.i"
+	@echo "... algo/adt.s"
+	@echo "... algo/bst.o"
+	@echo "... algo/bst.i"
+	@echo "... algo/bst.s"
+	@echo "... algo/exp.o"
+	@echo "... algo/exp.i"
+	@echo "... algo/exp.s"
+	@echo "... algo/peak_finding.o"
+	@echo "... algo/peak_finding.i"
+	@echo "... algo/peak_finding.s"
+	@echo "... algo/sort.o"
+	@echo "... algo/sort.i"
+	@echo "... algo/sort.s"
+	@echo "... algo/utility.o"
+	@echo "... algo/utility.i"
+	@echo "... algo/utility.s"
 	@echo "... driver.o"
 	@echo "... driver.i"
 	@echo "... driver.s"

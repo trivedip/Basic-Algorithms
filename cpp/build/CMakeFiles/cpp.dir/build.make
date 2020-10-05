@@ -60,27 +60,117 @@ include CMakeFiles/cpp.dir/flags.make
 CMakeFiles/cpp.dir/driver.cpp.o: CMakeFiles/cpp.dir/flags.make
 CMakeFiles/cpp.dir/driver.cpp.o: ../driver.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/driver.cpp.o"
-	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/driver.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/driver.cpp
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/driver.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/driver.cpp
 
 CMakeFiles/cpp.dir/driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/driver.cpp.i"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/priyank/github/Basic-Algorithms/cpp/driver.cpp > CMakeFiles/cpp.dir/driver.cpp.i
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/priyank/github/Basic-Algorithms/cpp/driver.cpp > CMakeFiles/cpp.dir/driver.cpp.i
 
 CMakeFiles/cpp.dir/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/driver.cpp.s"
-	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/priyank/github/Basic-Algorithms/cpp/driver.cpp -o CMakeFiles/cpp.dir/driver.cpp.s
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/priyank/github/Basic-Algorithms/cpp/driver.cpp -o CMakeFiles/cpp.dir/driver.cpp.s
+
+CMakeFiles/cpp.dir/algo/adt.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/algo/adt.cpp.o: ../algo/adt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/algo/adt.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/algo/adt.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/adt.cpp
+
+CMakeFiles/cpp.dir/algo/adt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/algo/adt.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/priyank/github/Basic-Algorithms/cpp/algo/adt.cpp > CMakeFiles/cpp.dir/algo/adt.cpp.i
+
+CMakeFiles/cpp.dir/algo/adt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/algo/adt.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/priyank/github/Basic-Algorithms/cpp/algo/adt.cpp -o CMakeFiles/cpp.dir/algo/adt.cpp.s
+
+CMakeFiles/cpp.dir/algo/bst.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/algo/bst.cpp.o: ../algo/bst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp.dir/algo/bst.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/algo/bst.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/bst.cpp
+
+CMakeFiles/cpp.dir/algo/bst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/algo/bst.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/priyank/github/Basic-Algorithms/cpp/algo/bst.cpp > CMakeFiles/cpp.dir/algo/bst.cpp.i
+
+CMakeFiles/cpp.dir/algo/bst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/algo/bst.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/priyank/github/Basic-Algorithms/cpp/algo/bst.cpp -o CMakeFiles/cpp.dir/algo/bst.cpp.s
+
+CMakeFiles/cpp.dir/algo/exp.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/algo/exp.cpp.o: ../algo/exp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/algo/exp.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/algo/exp.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/exp.cpp
+
+CMakeFiles/cpp.dir/algo/exp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/algo/exp.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/priyank/github/Basic-Algorithms/cpp/algo/exp.cpp > CMakeFiles/cpp.dir/algo/exp.cpp.i
+
+CMakeFiles/cpp.dir/algo/exp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/algo/exp.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/priyank/github/Basic-Algorithms/cpp/algo/exp.cpp -o CMakeFiles/cpp.dir/algo/exp.cpp.s
+
+CMakeFiles/cpp.dir/algo/peak_finding.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/algo/peak_finding.cpp.o: ../algo/peak_finding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp.dir/algo/peak_finding.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/algo/peak_finding.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/peak_finding.cpp
+
+CMakeFiles/cpp.dir/algo/peak_finding.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/algo/peak_finding.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/priyank/github/Basic-Algorithms/cpp/algo/peak_finding.cpp > CMakeFiles/cpp.dir/algo/peak_finding.cpp.i
+
+CMakeFiles/cpp.dir/algo/peak_finding.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/algo/peak_finding.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/priyank/github/Basic-Algorithms/cpp/algo/peak_finding.cpp -o CMakeFiles/cpp.dir/algo/peak_finding.cpp.s
+
+CMakeFiles/cpp.dir/algo/sort.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/algo/sort.cpp.o: ../algo/sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp.dir/algo/sort.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/algo/sort.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/sort.cpp
+
+CMakeFiles/cpp.dir/algo/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/algo/sort.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/priyank/github/Basic-Algorithms/cpp/algo/sort.cpp > CMakeFiles/cpp.dir/algo/sort.cpp.i
+
+CMakeFiles/cpp.dir/algo/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/algo/sort.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/priyank/github/Basic-Algorithms/cpp/algo/sort.cpp -o CMakeFiles/cpp.dir/algo/sort.cpp.s
+
+CMakeFiles/cpp.dir/algo/utility.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/algo/utility.cpp.o: ../algo/utility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp.dir/algo/utility.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/algo/utility.cpp.o -c /home/priyank/github/Basic-Algorithms/cpp/algo/utility.cpp
+
+CMakeFiles/cpp.dir/algo/utility.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/algo/utility.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/priyank/github/Basic-Algorithms/cpp/algo/utility.cpp > CMakeFiles/cpp.dir/algo/utility.cpp.i
+
+CMakeFiles/cpp.dir/algo/utility.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/algo/utility.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/priyank/github/Basic-Algorithms/cpp/algo/utility.cpp -o CMakeFiles/cpp.dir/algo/utility.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/driver.cpp.o"
+"CMakeFiles/cpp.dir/driver.cpp.o" \
+"CMakeFiles/cpp.dir/algo/adt.cpp.o" \
+"CMakeFiles/cpp.dir/algo/bst.cpp.o" \
+"CMakeFiles/cpp.dir/algo/exp.cpp.o" \
+"CMakeFiles/cpp.dir/algo/peak_finding.cpp.o" \
+"CMakeFiles/cpp.dir/algo/sort.cpp.o" \
+"CMakeFiles/cpp.dir/algo/utility.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
 cpp: CMakeFiles/cpp.dir/driver.cpp.o
+cpp: CMakeFiles/cpp.dir/algo/adt.cpp.o
+cpp: CMakeFiles/cpp.dir/algo/bst.cpp.o
+cpp: CMakeFiles/cpp.dir/algo/exp.cpp.o
+cpp: CMakeFiles/cpp.dir/algo/peak_finding.cpp.o
+cpp: CMakeFiles/cpp.dir/algo/sort.cpp.o
+cpp: CMakeFiles/cpp.dir/algo/utility.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/priyank/github/Basic-Algorithms/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

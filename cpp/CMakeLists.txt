@@ -4,5 +4,5 @@ project(cpp)
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
-file(GLOB all_header "algo/*.h")
+file(GLOB all_header algo/*.h algo/*.cpp)
 add_executable(cpp driver.cpp ${all_header})

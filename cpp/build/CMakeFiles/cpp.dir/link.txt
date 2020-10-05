@@ -1,1 +1,1 @@
-/bin/g++-9  -g   CMakeFiles/cpp.dir/driver.cpp.o  -o cpp 
+/bin/x86_64-linux-gnu-g++-9  -g   CMakeFiles/cpp.dir/driver.cpp.o CMakeFiles/cpp.dir/algo/adt.cpp.o CMakeFiles/cpp.dir/algo/bst.cpp.o CMakeFiles/cpp.dir/algo/exp.cpp.o CMakeFiles/cpp.dir/algo/peak_finding.cpp.o CMakeFiles/cpp.dir/algo/sort.cpp.o CMakeFiles/cpp.dir/algo/utility.cpp.o  -o cpp 
