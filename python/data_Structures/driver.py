@@ -15,3 +15,4 @@ for _ in range(5):
     b.append(random.randint(0,100))
 b.pr()
 
+
